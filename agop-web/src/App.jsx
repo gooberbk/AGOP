@@ -260,6 +260,14 @@ function App() {
               <a href="mailto:contact@example.com">Contact Us</a>
             </div>
           </div>
+          <div className="footer-affiliations">
+            <a href="https://estin.dz/" target="_blank" rel="noreferrer">
+              <img src="/logo-estin.png" alt="ESTIN Logo" className="affiliation-logo" />
+            </a>
+            <div className="incubator-placeholder">
+              <span>[ Incubator Logo ]</span>
+            </div>
+          </div>
           <div className="footer-bottom">
             <p>&copy; 2026 AGOP App. Designed for the 2CP Multidisciplinary Project, ESTIN.</p>
           </div>
