@@ -260,12 +260,13 @@ function App() {
               <a href="mailto:contact@example.com">Contact Us</a>
             </div>
           </div>
-          <div className="footer-affiliations">
+          <div className="footer-affiliations" style={{ flexDirection: 'column', gap: '1rem', textAlign: 'center' }}>
             <a href="https://estin.dz/" target="_blank" rel="noreferrer">
               <img src="/logo-estin.png" alt="ESTIN Logo" className="affiliation-logo" />
             </a>
-            <div className="incubator-placeholder">
-              <span>[ Incubator Logo ]</span>
+            <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: '1.5' }}>
+              <strong>École Supérieure en Sciences et Technologies de l'Informatique et du Numérique (ESTIN)</strong><br />
+              People's Democratic Republic of Algeria
             </div>
           </div>
           <div className="footer-bottom">

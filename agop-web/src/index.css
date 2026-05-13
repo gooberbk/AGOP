@@ -510,26 +510,8 @@ img {
 .affiliation-logo {
     height: 60px;
     object-fit: contain;
-    filter: grayscale(100%) brightness(200%);
-    transition: filter 0.3s ease;
 }
 
-.affiliation-logo:hover {
-    filter: none;
-}
-
-.incubator-placeholder {
-    height: 60px;
-    width: 150px;
-    background: rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--radius-sm);
-    border: 1px dashed rgba(255, 255, 255, 0.2);
-    color: var(--text-muted);
-    font-size: 0.85rem;
-}
 
 /* Responsive Design */
 @media (max-width: 1024px) {
